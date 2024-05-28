@@ -1,8 +1,12 @@
+import Navbar from "../components/Navbar";
 import Main from "../components/Main";
 
 const Home = () => {
   return (
-    <Main />
+    <div>
+      <Navbar />
+      <Main />
+    </div>
   );
 };
 
