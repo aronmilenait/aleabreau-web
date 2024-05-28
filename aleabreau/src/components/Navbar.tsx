@@ -1,11 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { Dancing_Script } from "next/font/google";
+import { Great_Vibes } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 
-const dancingScript = Dancing_Script({ subsets: ["latin"], weight: "400" });
+const greatVibes = Great_Vibes({ subsets: ["latin"], weight: "400" });
 
 const navLinks = [
   { name: "Inicio", path: "/" },
@@ -35,7 +35,7 @@ const Navbar = () => {
             height={50}
             className="rounded-full"
           />
-          <p className={`text-3xl font-bold ml-4 ${dancingScript.className}`}>
+          <p className={`text-3xl font-bold ml-4 ${greatVibes.className}`}>
             Aleabreau
           </p>
         </div>
