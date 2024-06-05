@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { Great_Vibes } from "next/font/google";
-import Image from "next/image";
 import Link from "next/link";
 
 const greatVibes = Great_Vibes({ subsets: ["latin"], weight: "400" });
@@ -28,13 +27,6 @@ const Navbar = () => {
     <nav className="bg-rose-900 text-rose-50 p-6">
       <div className="flex items-center justify-between">
         <div className="flex items-center">
-          <Image
-            src="/favicon.png"
-            alt="Icon"
-            width={50}
-            height={50}
-            className="rounded-full"
-          />
           <p className={`text-3xl font-bold ml-4 ${greatVibes.className}`}>
             Aleabreau
           </p>
